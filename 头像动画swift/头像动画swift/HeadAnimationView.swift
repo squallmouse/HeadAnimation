@@ -100,8 +100,8 @@ class HeadAnimationView: UIImageView {
         animation1.setValue(shapeLayer, forKey: "ani1");
         animation2.setValue(shapeLayer2, forKey: "ani2");
         
-        shapeLayer.addAnimation(animation1, forKey: "1");
-        shapeLayer2.addAnimation(animation2, forKey: "2");
+        shapeLayer.addAnimation(animation1, forKey: nil);
+        shapeLayer2.addAnimation(animation2, forKey: nil);
         
     
     }
